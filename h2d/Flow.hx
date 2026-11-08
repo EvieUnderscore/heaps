@@ -352,7 +352,7 @@ class Flow extends Object {
 	public var interactive(default, null) : h2d.Interactive;
 
 	/**
-		Setting a background tile will create an `h2d.ScaleGrid` background which uses the `Flow.borderWidth`/`Flow.borderHeigh` values for its borders.
+		Setting a background tile will create an `h2d.ScaleGrid` background which uses the `Flow.borderWidth`/`Flow.borderHeight` values for its borders.
 
 		It will automatically resize when the reflow is done to cover the whole Flow area.
 	**/
